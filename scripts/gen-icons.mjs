@@ -12,7 +12,7 @@ const publicDir = resolve(__dirname, '../public')
 mkdirSync(publicDir, { recursive: true })
 
 const BG = [15, 23, 42] // #0f172a
-const FG = [34, 211, 238] // #22d3ee
+const FG = [56, 189, 248] // #38bdf8
 
 // Fork & knife path in the 512x512 design space. Identical to the <path> in
 // public/favicon.svg — keep the two in sync if you re-trace the artwork.
