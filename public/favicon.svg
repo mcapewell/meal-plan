@@ -1,13 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
   <rect width="512" height="512" rx="96" fill="#0f172a"/>
-  <g fill="none" stroke="#22d3ee" stroke-width="34" stroke-linecap="round">
-    <!-- dumbbell bar -->
-    <line x1="150" y1="256" x2="362" y2="256"/>
-    <!-- left plates -->
-    <line x1="150" y1="196" x2="150" y2="316"/>
-    <line x1="104" y1="216" x2="104" y2="296"/>
-    <!-- right plates -->
-    <line x1="362" y1="196" x2="362" y2="316"/>
-    <line x1="408" y1="216" x2="408" y2="296"/>
+  <g fill="#22d3ee">
+    <!-- Fork: handle + base + three tines -->
+    <rect x="187" y="250" width="26" height="182" rx="13"/>
+    <rect x="172" y="205" width="56" height="45" rx="16"/>
+    <rect x="172" y="100" width="16" height="120" rx="8"/>
+    <rect x="192" y="100" width="16" height="120" rx="8"/>
+    <rect x="212" y="100" width="16" height="120" rx="8"/>
+    <!-- Knife: handle + tapered blade (rounded point widening to the base) -->
+    <rect x="302" y="250" width="26" height="182" rx="13"/>
+    <path d="M296 252 L296 200 Q296 112 315 108 Q334 112 334 200 L334 252 Z"/>
   </g>
 </svg>
